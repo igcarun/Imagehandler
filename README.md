@@ -1,2 +1,2 @@
 # Imagehandler
-handle the permission and file provider
+handle the runtime permission and file provider security permission are done in this project
