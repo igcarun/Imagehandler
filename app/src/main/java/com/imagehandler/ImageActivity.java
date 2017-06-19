@@ -29,7 +29,6 @@ public class ImageActivity extends AppCompatActivity implements PermissionStatus
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image);
-
         mParentLayout = (RelativeLayout) findViewById(R.id.activity_image_rl);
         mImageView = (ImageView) findViewById(R.id.activity_image_iv);
         if (savedInstanceState == null) {
